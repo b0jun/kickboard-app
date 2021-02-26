@@ -1,11 +1,12 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import Navigator from '~/Screens/Navigator';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text>TEST</Text>
-    </SafeAreaView>
+    <>
+      <Navigator />
+    </>
   );
 };
 
